@@ -1,0 +1,69 @@
+@import 'base/header';
+@import 'base/footer';
+@import 'other/404';
+@import 'other/hamburger';
+@import 'other/button';
+@import 'pages/home';
+@import 'pages/about';
+@import 'pages/contact';
+@import 'pages/features';
+@import 'pages/single-services';
+
+html, body {
+    max-width: 100% !important;
+    overflow-x: hidden;
+    scroll-behavior: smooth!important;
+    list-style-type: none;
+    appearance: none;
+    padding: 0!important;
+}
+.wpcf7-not-valid{
+    border-bottom: 2px solid red !important;
+}
+.third-row {
+    .checkbox-310{
+    .wpcf7-not-valid{
+        border-bottom: 1px solid transparent !important;
+        input{
+            &:before{
+            border: 1px solid red !important;
+                }
+            }
+        }
+    }
+}
+.wpcf7-not-valid-tip, .wpcf7-response-output{
+    display: none!important;
+}
+li{
+    list-style-type: none!important;
+}
+// a:visited{
+//     color: unset!important;
+// }
+a{
+    text-decoration: unset!important;
+    &:hover{
+        text-decoration: unset!important;
+    }
+}
+.post, .page {
+    margin: 0;
+}
+// body{
+//     background: #f2f2f2!important;
+// }
+
+@font-face {
+    font-family: 'LibreBaskerville-R';
+    src: url(../fonts/LibreBaskerville-Regular.ttf);
+    }
+    
+
+
+  
+
+    
+
+  
+  

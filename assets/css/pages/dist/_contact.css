@@ -1,0 +1,269 @@
+.contactinfo__section .contactinfo__content {
+  margin: 100px 0;
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 991.98px) {
+  .contactinfo__section .contactinfo__content {
+    display: block;
+  }
+}
+.contactinfo__section .contactinfo__content .left {
+  z-index: 1;
+  width: 48%;
+}
+@media (max-width: 991.98px) {
+  .contactinfo__section .contactinfo__content .left {
+    width: 100%;
+  }
+}
+.contactinfo__section .contactinfo__content .left #map {
+  height: 505px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+@media (max-width: 991.98px) {
+  .contactinfo__section .contactinfo__content .left #map {
+    height: 580px;
+  }
+}
+@media (max-width: 470px) {
+  .contactinfo__section .contactinfo__content .left #map {
+    height: 450px;
+  }
+}
+.contactinfo__section .contactinfo__content .right {
+  margin-top: 1.9rem !important;
+  padding-left: 180px !important;
+  background-color: #406870 !important;
+  min-height: 505px;
+  width: 60%;
+  margin-left: -115px;
+  display: grid;
+  align-content: center;
+  padding-right: 40px;
+}
+@media (max-width: 991.98px) {
+  .contactinfo__section .contactinfo__content .right {
+    width: 100%;
+    margin-top: 0rem !important;
+    padding-left: 0px !important;
+    margin-left: 0px;
+    padding-right: 0px;
+    padding: 0 40px !important;
+    min-height: 400px;
+  }
+}
+.contactinfo__section .contactinfo__content .right h1 {
+  color: white;
+  line-height: 1.16em;
+  font-family: "LibreBaskerville-R";
+  font-size: 3.75rem;
+  font-weight: 400;
+  position: relative;
+  padding-bottom: 1.6rem;
+}
+.contactinfo__section .contactinfo__content .right h1:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 4.313rem;
+  height: 3px;
+  background-color: #bcb892;
+}
+@media (max-width: 575.98px) {
+  .contactinfo__section .contactinfo__content .right h1 {
+    font-size: 55px !important;
+  }
+}
+@media (max-width: 470px) {
+  .contactinfo__section .contactinfo__content .right h1 {
+    font-size: 3rem !important;
+  }
+}
+.contactinfo__section .contactinfo__content .right h2 {
+  margin-top: 1.6em;
+  font-size: 100%;
+}
+.contactinfo__section .contactinfo__content .right h2 p {
+  font-weight: 500;
+  color: #cdd8da;
+  line-height: 1.7;
+}
+.contactinfo__section .contactinfo__content .right h2 a {
+  font-weight: 700;
+  color: #e2edee;
+  line-height: 1.7;
+  transition: 0.3s ease-in-out;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+}
+.contactinfo__section .contactinfo__content .right h2 a:hover {
+  color: #bcb892;
+  transition: 0.3s ease-in-out;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+}
+
+.getintouch__section {
+  background-color: #f0f4f7;
+  padding: 150px 0;
+}
+@media (max-width: 470px) {
+  .getintouch__section {
+    padding: 60px 0;
+  }
+}
+@media (max-width: 991.98px) {
+  .getintouch__section .right {
+    padding: 30px 0;
+    background-color: #f0f4f7;
+    padding-left: 30px !important;
+    padding-right: 45px;
+  }
+}
+@media (max-width: 767.98px) {
+  .getintouch__section .right {
+    padding-right: 30px;
+  }
+}
+@media (max-width: 470px) {
+  .getintouch__section .right {
+    padding: 0px !important;
+  }
+}
+.getintouch__section .right h2 {
+  text-align: center;
+  color: #406870;
+  font-family: "LibreBaskerville-R";
+  font-size: 3.4rem;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.2em;
+  position: relative;
+  padding-bottom: 0.4rem;
+}
+@media (max-width: 575.98px) {
+  .getintouch__section .right h2 {
+    font-size: 55px;
+    padding-bottom: 0.5rem;
+  }
+}
+@media (max-width: 470px) {
+  .getintouch__section .right h2 {
+    font-size: 45px;
+  }
+}
+.getintouch__section .right i {
+  margin: auto;
+  font-size: 28px;
+  width: fit-content;
+  text-align: center;
+  display: flex;
+  position: relative;
+  color: #bcb892;
+}
+.getintouch__section .right i:after {
+  bottom: 0.75rem;
+  content: "";
+  left: 50%;
+  transform: translateX(-50%);
+  width: 84px;
+  height: 2px;
+  position: absolute;
+  background: linear-gradient(to right, #e1e7eb 0%, #e1e7eb 25%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 75%, #e1e7eb 75%);
+}
+.getintouch__section .right .inner {
+  padding: 0;
+  margin: auto;
+}
+.getintouch__section .right .inner .first-row input {
+  background-color: #fff;
+  width: 100%;
+  color: rgba(64, 104, 112, 0.78);
+  border-color: #e8edf0;
+  padding: 1em 1.5em;
+  height: 3.25rem;
+  border: 1px solid;
+  margin-bottom: 0;
+  outline: unset;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+}
+@media (max-width: 991.98px) {
+  .getintouch__section .right .inner .first-row .col-lg-6:nth-child(2) input {
+    margin-top: 0rem;
+  }
+}
+.getintouch__section .right .inner .fiveth-row button {
+  margin: auto;
+}
+.getintouch__section .right .inner .third-row {
+  text-align: center;
+}
+.getintouch__section .right .inner .third-row textarea {
+  padding: 1em 1.5em;
+  height: 3.25rem;
+  min-height: 9.3em;
+  border: 1px solid;
+  width: 100%;
+  outline: unset;
+  margin-bottom: 0.5rem !important;
+  color: rgba(64, 104, 112, 0.78);
+  border-color: #e8edf0;
+  border: 1px solid;
+}
+.getintouch__section .right .inner .third-row .wpcf7-form-control-wrap span {
+  margin: 0;
+}
+.getintouch__section .right .inner .third-row .wpcf7-form-control-wrap span label {
+  display: flex;
+  margin-bottom: 0.5rem;
+  align-items: center;
+}
+.getintouch__section .right .inner .third-row .wpcf7-form-control-wrap label .wpcf7-list-item-label {
+  position: relative;
+  font-size: 14px;
+  padding-left: 0.8em;
+  line-height: 22px;
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 0;
+  color: #789499;
+}
+.getintouch__section .right .inner .third-row .wpcf7-form-control-wrap label input {
+  position: relative;
+  cursor: pointer;
+}
+.getintouch__section .right .inner .third-row .wpcf7-form-control-wrap label input:before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  top: 0;
+  left: -1;
+  border: 1px solid #555555;
+  border-radius: 3px;
+  background-color: white;
+}
+.getintouch__section .right .inner .third-row .wpcf7-form-control-wrap label input:checked:after {
+  content: "";
+  display: block;
+  width: 5px;
+  height: 10px;
+  border: solid rgba(64, 104, 112, 0.78);
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  position: absolute;
+  top: 2px;
+  left: 5px;
+}
